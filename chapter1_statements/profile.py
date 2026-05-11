@@ -1,6 +1,10 @@
-name = input("Enter your name: ")
-
-print(f"Hello {name}")
-print(f"Hello{name},Welcome to python")
-print(f"Hello {name}, welcome to Python programming")
-print(f"Your name has {len(name)} letters")
+#Student Profile
+name=input("Enter student name:")
+county=input("Enter student county:")
+hobby=input("Enter student hobby:")
+favourite_meal=input("Enter student favourite meal:")
+print("\nStudent Profile\n")
+print("Student Name:",name)
+print("Student County:",county)
+print("Student Hobby:",hobby)
+print("Student Favourite Meal:",favourite_meal)
