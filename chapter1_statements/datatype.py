@@ -1,16 +1,13 @@
-# Python data types
+#Mini Medical Exercise
+patient_name=input("Enter patient name:")
+patient_age=int(input("Enter patient age:"))
+patient_temperature=float(input("Enter patient temperature:"))
 
-student_name = "Davis"
-student_age = 25
-student_weight = 65.5
-is_present = True
+print("\n----Patient Details-----")
+print(f"Patient Name:{patient_name}")
+print(f"Patient Age:{patient_age}")
+print(f"Temperature:{patient_temperature}")
 
-print(student_name)
-print(student_age)
-print(student_weight)
-print(is_present)
+next_year_age =patient_age+1
+print(f"Patient age next year:{next_year_age}")
 
-print(type(student_name))
-print(type(student_age))
-print(type(student_weight))
-print(type(is_present))
